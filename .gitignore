@@ -1,0 +1,10 @@
+# Temp files
+*.swp
+*.swa
+*.swo
+
+# Core latex auxiliary files
+*.aux
+*.out
+*.log
+*.pdf
