@@ -8,4 +8,4 @@ COPY /*.cls /
 
 WORKDIR /
 
-RUN xelatex *.tex
+RUN xelatex resume.tex

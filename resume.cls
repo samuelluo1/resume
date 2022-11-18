@@ -31,7 +31,7 @@
 
 % Set main fonts
 \defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Color=primary, Path = Fonts/Lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic]{Lato-Light}\fontsize{10pt}{100pt}
+\setmainfont[Color=primary, Path = Fonts/Lato/,BoldItalicFont=Lato-Italic,BoldFont=Lato-Regular,ItalicFont=Lato-LightItalic]{Lato-Light}\fontsize{10pt}{16pt}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = Fonts/Raleway/static/]{Raleway-ExtraLight}
 
 % Date command
@@ -77,10 +77,10 @@ Last Updated on
 \fontspec[Path = Fonts/Lato/]{Lato-Bold}\fontsize{12pt}{14pt}\selectfont\bfseries\uppercase {#1} \normalfont}
 
 % Descriptors command
-\newcommand{\descript}[1]{\color{subheadings}\raggedright\scshape\fontspec[Path = Fonts/Raleway/static/]{Raleway-Medium}\fontsize{10pt}{15pt}\selectfont {#1 \\} \normalfont}
+\newcommand{\descript}[1]{\color{headings}\raggedright\scshape\fontsize{12pt}{15pt}\selectfont\bf {#1 \\} \normalfont}
 
 % Location command
-\newcommand{\location}[1]{\color{headings}\raggedright\scshape\fontspec[Path = Fonts/Raleway/static/]{Raleway-Medium}\fontsize{10pt}{16pt}\selectfont {#1\\} \normalfont}
+\newcommand{\location}[1]{\color{headings}\raggedright\scshape\fontsize{11pt}{16pt}\selectfont {#1 \\} \normalfont}
 
 % Section seperators command
 \newcommand{\sectionsep}[0]{\vspace{8pt}}
